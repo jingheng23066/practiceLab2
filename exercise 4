@@ -8,8 +8,8 @@ def get_user_input():
     return float_list
 
 5
-def calc_average(float_list):
-    return sum(float_list) / len(float_list)
+def calc_average(temp_list):
+    return sum(temp_list) / len(temp_list)
 
 def find_min_max(temp_list):
     return [min(temp_list), max(temp_list)]
